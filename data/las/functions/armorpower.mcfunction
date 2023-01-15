@@ -17,4 +17,6 @@ scoreboard players set @a[scores={armorPieces=1..,lasTemp=..0}] lasTemp 1
 scoreboard objectives add currentArmorPoints dummy
 scoreboard players operation @a currentArmorPoints = @a lasTemp
 
-function las:distribute
+# function las:distribute
+function las:lazygivepoints
+# The shit above doesn't matter anymore
