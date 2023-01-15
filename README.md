@@ -20,4 +20,4 @@ Well, it does work! The equation is ~fully~ mostly implemented, just kinda rough
 The lazy branch calculates armor points for each armor piece instead of calculating the total and then mapping it to the pieces. It only works for the helmet though.
 
 -----
-If you want something that actually functions, try out [Nostalgic Food System](Engielolz/nfs_functions). It's like LAS, but with food, and it actually functions well enough to be used!
+If you want something that actually functions, try out [Nostalgic Food System](http://github.com/Engielolz/nfs_functions). It's like LAS, but with food, and it actually functions well enough to be used!
