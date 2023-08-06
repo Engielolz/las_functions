@@ -1,13 +1,10 @@
 # INIT
-function las:basearmorpoints
 
-scoreboard objectives add helmetBaseDurability dummy
-scoreboard objectives add chestplateBaseDurability dummy
-scoreboard objectives add leggingsBaseDurability dummy
-scoreboard objectives add bootsBaseDurability dummy
-
-scoreboard objectives add totalBaseDurability dummy
-
+# Debugging
+scoreboard objectives add LAS.Debug trigger
+# Only set up NFSVersion for players that don't have it enabled
+execute as @a unless score @s LAS.Debug matches 0.. run scoreboard players enable @s LAS.Debug
+execute as @a[scores={LAS.Debug=1}] run function las:debug
 
 # Check armor to get base durability:
 # ===================================
@@ -53,6 +50,12 @@ scoreboard players set @a[nbt={Inventory:[{id:"minecraft:netherite_helmet",Slot:
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:netherite_chestplate",Slot:102b}]}] chestplateBaseDurability 592
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:netherite_leggings",Slot:101b}]}] leggingsBaseDurability 555
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:netherite_boots",Slot:100b}]}] bootsBaseDurability 481
+
+# Turtle Shell
+scoreboard players set @a[nbt={Inventory:[{id:"minecraft:turtle_helmet",Slot:103b}]}] helmetBaseDurability 275
+
+# Get base armor points
+function las:basearmorpoints
 
 # Get total base durability
 # =========================

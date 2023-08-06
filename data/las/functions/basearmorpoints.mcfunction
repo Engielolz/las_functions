@@ -1,10 +1,4 @@
-scoreboard objectives add baseArmorPoints dummy
 
-scoreboard objectives add hasHelmet dummy
-scoreboard objectives add hasChestplate dummy
-scoreboard objectives add hasLeggings dummy
-scoreboard objectives add hasBoots dummy
-scoreboard objectives add armorPieces dummy
 
 scoreboard players set @a hasHelmet 0
 scoreboard players set @a hasChestplate 0
@@ -13,10 +7,10 @@ scoreboard players set @a hasBoots 0
 scoreboard players set @a armorPieces 0
 
 scoreboard players set @a baseArmorPoints 0
-scoreboard players add @a[nbt={Inventory:[{Slot:103b}]}] baseArmorPoints 3
-scoreboard players set @a[nbt={Inventory:[{Slot:103b}]}] hasHelmet 1
-scoreboard players add @a[nbt={Inventory:[{Slot:102b}]}] baseArmorPoints 8
-scoreboard players set @a[nbt={Inventory:[{Slot:102b}]}] hasChestplate 1
+scoreboard players add @a[scores={helmetBaseDurability=1..}] baseArmorPoints 3
+scoreboard players set @a[scores={helmetBaseDurability=1..}] hasHelmet 1
+scoreboard players add @a[scores={chestplateBaseDurability=1..}] baseArmorPoints 8
+scoreboard players set @a[scores={chestplateBaseDurability=1..}] hasChestplate 1
 scoreboard players add @a[nbt={Inventory:[{Slot:101b}]}] baseArmorPoints 6
 scoreboard players set @a[nbt={Inventory:[{Slot:101b}]}] hasLeggings 1
 scoreboard players add @a[nbt={Inventory:[{Slot:100b}]}] baseArmorPoints 3
