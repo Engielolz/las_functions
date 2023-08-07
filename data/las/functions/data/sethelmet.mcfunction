@@ -298,3 +298,9 @@ item modify entity @s[scores={targetArmorPoints=297}] armor.head las:head-297
 item modify entity @s[scores={targetArmorPoints=298}] armor.head las:head-298
 item modify entity @s[scores={targetArmorPoints=299}] armor.head las:head-299
 item modify entity @s[scores={targetArmorPoints=300}] armor.head las:head-300
+item modify entity @s[scores={targetArmorPoints=301}] armor.head las:head-301
+item modify entity @s[scores={targetArmorPoints=302}] armor.head las:head-302
+item modify entity @s[scores={targetArmorPoints=303}] armor.head las:head-303
+item modify entity @s[scores={targetArmorPoints=304}] armor.head las:head-304
+item modify entity @s[scores={targetArmorPoints=305}] armor.head las:head-305
+item modify entity @s[scores={targetArmorPoints=306}] armor.head las:head-306

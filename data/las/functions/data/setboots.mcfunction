@@ -298,3 +298,9 @@ item modify entity @s[scores={targetArmorPoints=297}] armor.feet las:feet-297
 item modify entity @s[scores={targetArmorPoints=298}] armor.feet las:feet-298
 item modify entity @s[scores={targetArmorPoints=299}] armor.feet las:feet-299
 item modify entity @s[scores={targetArmorPoints=300}] armor.feet las:feet-300
+item modify entity @s[scores={targetArmorPoints=301}] armor.feet las:feet-301
+item modify entity @s[scores={targetArmorPoints=302}] armor.feet las:feet-302
+item modify entity @s[scores={targetArmorPoints=303}] armor.feet las:feet-303
+item modify entity @s[scores={targetArmorPoints=304}] armor.feet las:feet-304
+item modify entity @s[scores={targetArmorPoints=305}] armor.feet las:feet-305
+item modify entity @s[scores={targetArmorPoints=306}] armor.feet las:feet-306

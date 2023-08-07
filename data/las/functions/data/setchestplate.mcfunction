@@ -798,3 +798,15 @@ item modify entity @s[scores={targetArmorPoints=797}] armor.chest las:chest-797
 item modify entity @s[scores={targetArmorPoints=798}] armor.chest las:chest-798
 item modify entity @s[scores={targetArmorPoints=799}] armor.chest las:chest-799
 item modify entity @s[scores={targetArmorPoints=800}] armor.chest las:chest-800
+item modify entity @s[scores={targetArmorPoints=801}] armor.chest las:chest-801
+item modify entity @s[scores={targetArmorPoints=802}] armor.chest las:chest-802
+item modify entity @s[scores={targetArmorPoints=803}] armor.chest las:chest-803
+item modify entity @s[scores={targetArmorPoints=804}] armor.chest las:chest-804
+item modify entity @s[scores={targetArmorPoints=805}] armor.chest las:chest-805
+item modify entity @s[scores={targetArmorPoints=806}] armor.chest las:chest-806
+item modify entity @s[scores={targetArmorPoints=807}] armor.chest las:chest-807
+item modify entity @s[scores={targetArmorPoints=808}] armor.chest las:chest-808
+item modify entity @s[scores={targetArmorPoints=809}] armor.chest las:chest-809
+item modify entity @s[scores={targetArmorPoints=810}] armor.chest las:chest-810
+item modify entity @s[scores={targetArmorPoints=811}] armor.chest las:chest-811
+item modify entity @s[scores={targetArmorPoints=812}] armor.chest las:chest-812

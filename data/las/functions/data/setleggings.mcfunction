@@ -598,3 +598,6 @@ item modify entity @s[scores={targetArmorPoints=597}] armor.legs las:legs-597
 item modify entity @s[scores={targetArmorPoints=598}] armor.legs las:legs-598
 item modify entity @s[scores={targetArmorPoints=599}] armor.legs las:legs-599
 item modify entity @s[scores={targetArmorPoints=600}] armor.legs las:legs-600
+item modify entity @s[scores={targetArmorPoints=601}] armor.legs las:legs-601
+item modify entity @s[scores={targetArmorPoints=602}] armor.legs las:legs-602
+item modify entity @s[scores={targetArmorPoints=603}] armor.legs las:legs-603
