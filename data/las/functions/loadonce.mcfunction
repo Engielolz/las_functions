@@ -6,6 +6,7 @@ scoreboard objectives add leggingsBaseDurability dummy
 scoreboard objectives add bootsBaseDurability dummy
 
 scoreboard objectives add totalBaseDurability dummy
+scoreboard objectives add LAS.Debug trigger
 # basearmorpoints.mcfunction
 scoreboard objectives add baseArmorPoints dummy
 

@@ -2,6 +2,7 @@
 
 # Help fix precision loss
 scoreboard players set @a lasTemp 100
+# Multiply everything by 100
 scoreboard players operation @a totalCurrentDurability *= @a lasTemp
 scoreboard players operation @a baseArmorPoints *= @a lasTemp
 scoreboard players operation @a totalBaseDurability *= @a lasTemp
@@ -17,15 +18,9 @@ scoreboard players operation @a lasTemp /= @a totalBaseDurability
 # Removed due to being buggy. Try fixing it.
 # scoreboard players add @a[scores={armorPieces=1..,lasTemp=0}] lasTemp 1
 
-# Strange ass manual overrides
-# You should always have 1 AP per piece of armor. At least, I think that's how it worked...
-# scoreboard players set @a[scores={armorPieces=4..,lasTemp=..3}] lasTemp 4
-# scoreboard players set @a[scores={armorPieces=3..,lasTemp=..2}] lasTemp 3
-# scoreboard players set @a[scores={armorPieces=2..,lasTemp=..1}] lasTemp 2
-# scoreboard players set @a[scores={armorPieces=1..,lasTemp=..0}] lasTemp 1
-
-
+# set currentArmorPoints
 scoreboard players operation @a currentArmorPoints = @a lasTemp
-
+# if currentArmorPoints changed, recalculate armor.
 execute as @a unless score @s currentArmorPoints = @s lastArmorPoints run function las:calcarmor
+# Set lastArmorPoints to currentArmorPoints.
 scoreboard players operation @a lastArmorPoints = @a currentArmorPoints

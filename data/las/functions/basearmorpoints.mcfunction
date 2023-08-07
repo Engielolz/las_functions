@@ -1,5 +1,3 @@
-
-
 scoreboard players set @a hasHelmet 0
 scoreboard players set @a hasChestplate 0
 scoreboard players set @a hasLeggings 0
@@ -14,8 +12,6 @@ scoreboard players set @a[scores={chestplateBaseDurability=1..}] hasChestplate 1
 scoreboard players add @a[nbt={Inventory:[{Slot:101b}]}] baseArmorPoints 6
 scoreboard players set @a[nbt={Inventory:[{Slot:101b}]}] hasLeggings 1
 scoreboard players add @a[nbt={Inventory:[{Slot:100b}]}] baseArmorPoints 3
-# See armorpower.mcfunction
-# scoreboard players remove @a[nbt={Inventory:[{Slot:100b}]}] baseArmorPoints 1
 scoreboard players set @a[nbt={Inventory:[{Slot:100b}]}] hasBoots 1
 
 scoreboard players add @a[scores={hasHelmet=1}] armorPieces 1

@@ -1,8 +1,6 @@
-# INIT
+# Called by Minecraft itself, ran every tick
 
 # Debugging
-scoreboard objectives add LAS.Debug trigger
-# Only set up NFSVersion for players that don't have it enabled
 execute as @a unless score @s LAS.Debug matches 0.. run scoreboard players enable @s LAS.Debug
 execute as @a[scores={LAS.Debug=1}] run function las:debug
 

@@ -19,6 +19,7 @@ execute as @a store result score @s currentBootsDurability run data get entity @
 # Get total current durability
 # =========================
 scoreboard players set @a totalCurrentDurability 0
+# Add up durability
 scoreboard players operation @a totalCurrentDurability += @a currentHelmetDurability
 # Fix Elytra messing with armor points
 scoreboard players operation @a[scores={hasChestplate=1}] totalCurrentDurability += @a currentChestplateDurability
