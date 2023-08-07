@@ -11,8 +11,5 @@ It's still a little rough around the edges, but it should be ready for testing.
 ## What doesn't work
 * Hopefully nothing
 
-## Untested
-* Multiplayer. There have been some fixes but I'm not sure if it works now.
-
 ## To do
 * Give all LAS-related objectives a LAS prefix, like NFS Beta 1.2
