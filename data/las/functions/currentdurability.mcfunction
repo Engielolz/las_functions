@@ -20,15 +20,15 @@ execute as @a store result score @s currentBootsDurability run data get entity @
 # =========================
 scoreboard players set @a totalCurrentDurability 0
 # Add up durability
-scoreboard players operation @a totalCurrentDurability += @a currentHelmetDurability
+execute as @a run scoreboard players operation @s totalCurrentDurability += @s currentHelmetDurability
 # Fix Elytra messing with armor points
-scoreboard players operation @a[scores={hasChestplate=1}] totalCurrentDurability += @a currentChestplateDurability
-scoreboard players operation @a totalCurrentDurability += @a currentLeggingsDurability
-scoreboard players operation @a totalCurrentDurability += @a currentBootsDurability
+execute as @a run scoreboard players operation @s[scores={hasChestplate=1}] totalCurrentDurability += @s currentChestplateDurability
+execute as @a run scoreboard players operation @s totalCurrentDurability += @s currentLeggingsDurability
+execute as @a run scoreboard players operation @s totalCurrentDurability += @s currentBootsDurability
 
 # Convert total current durability into something we can use.
-scoreboard players operation @a lasTemp = @a totalBaseDurability
-scoreboard players operation @a lasTemp -= @a totalCurrentDurability
-scoreboard players operation @a totalCurrentDurability = @a lasTemp
+execute as @a run scoreboard players operation @s lasTemp = @s totalBaseDurability
+execute as @a run scoreboard players operation @s lasTemp -= @s totalCurrentDurability
+execute as @a run scoreboard players operation @s totalCurrentDurability = @s lasTemp
 
 function las:armorpower

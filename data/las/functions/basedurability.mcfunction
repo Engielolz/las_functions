@@ -58,9 +58,9 @@ function las:basearmorpoints
 # Get total base durability
 # =========================
 scoreboard players set @a totalBaseDurability 0
-scoreboard players operation @a totalBaseDurability += @a helmetBaseDurability
-scoreboard players operation @a totalBaseDurability += @a chestplateBaseDurability
-scoreboard players operation @a totalBaseDurability += @a leggingsBaseDurability
-scoreboard players operation @a totalBaseDurability += @a bootsBaseDurability
+execute as @a run scoreboard players operation @s totalBaseDurability += @s helmetBaseDurability
+execute as @a run scoreboard players operation @s totalBaseDurability += @s chestplateBaseDurability
+execute as @a run scoreboard players operation @s totalBaseDurability += @s leggingsBaseDurability
+execute as @a run scoreboard players operation @s totalBaseDurability += @s bootsBaseDurability
 
 function las:currentdurability
