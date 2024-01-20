@@ -1,4 +1,4 @@
-# Called by Minecraft itself, ran every tick
+# Entry point: Minecraft itself, ran every tick
 
 # Debugging
 execute as @a unless score @s LAS.Debug matches 0.. run scoreboard players enable @s LAS.Debug
@@ -52,7 +52,7 @@ scoreboard players set @a[nbt={Inventory:[{id:"minecraft:netherite_boots",Slot:1
 # Turtle Shell
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:turtle_helmet",Slot:103b}]}] helmetBaseDurability 275
 
-# Get base armor points
+# Calculate base armor points
 function las:basearmorpoints
 
 # Get total base durability
@@ -63,4 +63,5 @@ execute as @a run scoreboard players operation @s totalBaseDurability += @s ches
 execute as @a run scoreboard players operation @s totalBaseDurability += @s leggingsBaseDurability
 execute as @a run scoreboard players operation @s totalBaseDurability += @s bootsBaseDurability
 
+# We're done here, move on to fetch current durability
 function las:currentdurability

@@ -1,3 +1,5 @@
+# Entry point: armorpower.mcfunction
+
 # The following DON'T have precision issues: Helmet+Boots, Helm+Legs+Boots, Full Set
 scoreboard players set @s targetArmorPoints 65535
 
@@ -23,5 +25,7 @@ execute if entity @s[scores={armorPieces=4}] run function las:result/fullset
 
 # Silence warning message if no armor is being worn
 execute if entity @s[scores={armorPieces=0}] run scoreboard players set @s targetArmorPoints 0
-
+# Warning message if something goes wrong
 execute if score @s targetArmorPoints matches 65535 run tellraw @s {"text":"[LAS Warning] The armor changed, but the armor points were not. Armor combination not supported?"}
+
+# Returns to armorpower.mcfunction.
