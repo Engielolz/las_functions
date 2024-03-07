@@ -1,3 +1,4 @@
+item modify entity @s armor.feet las:reset-feet
 item modify entity @s[scores={targetArmorPoints=1}] armor.feet las:feet-1
 item modify entity @s[scores={targetArmorPoints=2}] armor.feet las:feet-2
 item modify entity @s[scores={targetArmorPoints=3}] armor.feet las:feet-3

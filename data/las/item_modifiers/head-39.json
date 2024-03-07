@@ -1,4 +1,13 @@
 {
-	"function": "minecraft:set_nbt",
-	"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.39,Operation:0,UUID:[I;718533190,-18788761,-1199150595,940290384],Slot:\"head\"}]}"
+	"function": "minecraft:set_attributes",
+	"modifiers": [
+       {
+           "name": "",
+           "attribute": "minecraft:generic.armor",
+           "operation": "add_value",
+           "slot": "head",
+           "id": "2AD3F246-FEE1-4E67-B886-69FD380BB150",
+           "amount": 0.39
+       }
+   ]
 }
