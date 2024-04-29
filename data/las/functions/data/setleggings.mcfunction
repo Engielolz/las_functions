@@ -1,4 +1,4 @@
-item modify entity @s armor.legs las:reset-legs
+item modify entity @s armor.legs las:reset/reset-legs
 item modify entity @s[scores={targetArmorPoints=1}] armor.legs las:legs-1
 item modify entity @s[scores={targetArmorPoints=2}] armor.legs las:legs-2
 item modify entity @s[scores={targetArmorPoints=3}] armor.legs las:legs-3
