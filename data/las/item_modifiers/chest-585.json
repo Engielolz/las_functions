@@ -1,13 +1,4 @@
 {
-	"function": "minecraft:set_attributes",
-	"modifiers": [
-       {
-           "name": "",
-           "attribute": "minecraft:generic.armor",
-           "operation": "add_value",
-           "slot": "chest",
-           "id": "9F3D476D-C118-4544-8365-64846904B48E",
-           "amount": 5.85
-       }
-   ]
+	"function": "minecraft:set_nbt",
+	"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:5.85,Operation:0,UUID:[I;718533192,-18788761,-1199150595,940290384],Slot:\"chest\"}]}"
 }

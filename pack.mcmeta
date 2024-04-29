@@ -1,6 +1,19 @@
 {
        "pack": {
            "pack_format": 7,
+		   "supported_formats": [7,999],
            "description": "Legacy Armor System InDev"
-       }
+       },
+	   "overlays": {
+	       "entries": [
+		       {
+		           "formats": [33,37],
+			       "directory": "badversn"
+			   },
+			   {
+			       "formats": [33,999],
+				   "directory": "cmpnents"
+			   }
+		   ]
+	   }
    }

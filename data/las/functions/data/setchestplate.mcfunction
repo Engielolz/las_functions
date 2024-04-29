@@ -1,4 +1,3 @@
-item modify entity @s armor.chest las:reset/reset-chest
 item modify entity @s[scores={targetArmorPoints=1}] armor.chest las:chest-1
 item modify entity @s[scores={targetArmorPoints=2}] armor.chest las:chest-2
 item modify entity @s[scores={targetArmorPoints=3}] armor.chest las:chest-3

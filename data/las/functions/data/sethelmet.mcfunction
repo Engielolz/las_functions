@@ -1,4 +1,3 @@
-item modify entity @s armor.head las:reset/reset-head
 item modify entity @s[scores={targetArmorPoints=1}] armor.head las:head-1
 item modify entity @s[scores={targetArmorPoints=2}] armor.head las:head-2
 item modify entity @s[scores={targetArmorPoints=3}] armor.head las:head-3
