@@ -1,2 +1,1 @@
-scoreboard objectives add LAS.Unsupported dummy
-scoreboard players set @a LAS.Unsupported 1
+scoreboard objectives remove LAS.Unsupported
