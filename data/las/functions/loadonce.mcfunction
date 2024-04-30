@@ -31,3 +31,6 @@ scoreboard objectives add lasTemp2 dummy
 
 # calcarmor.mcfunction
 scoreboard objectives add targetArmorPoints dummy
+
+# remove version check thing
+scoreboard objectives remove LAS.Unsupported

@@ -1,4 +1,4 @@
 {
 	"function": "minecraft:set_nbt",
-	"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.06,Operation:0,UUID:[I;718533193,-18788761,-1199150595,940290384],Slot:\"legs\"}]}"
+	"tag": "{AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:0.06,Operation:0,UUID:[I;-666264828,241583910,-1423350714,-1653387763],Slot:\"legs\"}]}"
 }
