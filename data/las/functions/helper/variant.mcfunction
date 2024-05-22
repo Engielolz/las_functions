@@ -1,0 +1,1 @@
+tellraw @s {"text":"LAS Variant: 1.18-1.20.4"}

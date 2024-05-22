@@ -1,0 +1,1 @@
+tellraw @s {"text":"LAS Variant: 24w21a-onwards (Seperate codepath)"}

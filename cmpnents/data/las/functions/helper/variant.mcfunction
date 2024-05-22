@@ -1,0 +1,1 @@
+tellraw @s {"text":"LAS Variant: 1.20.5-24w20a"}

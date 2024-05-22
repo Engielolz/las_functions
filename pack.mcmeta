@@ -11,8 +11,12 @@
 			       "directory": "badversn"
 			   },
 			   {
-			       "formats": [33,999],
+			       "formats": [33,44],
 				   "directory": "cmpnents"
+			   },
+			   {
+			       "formats": [45,999],
+				   "directory": "modern"
 			   }
 		   ]
 	   }
