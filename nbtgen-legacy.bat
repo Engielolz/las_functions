@@ -1,10 +1,13 @@
 @echo off
+pushd %~dp0
 echo Please wait while the item modifiers are generated. This may take some time...
 call :start head
 call :start chest
 call :start legs
 call :start feet
+del data\las\item_modifiers\*.json 2>nul
 move jsons data\las\item_modifiers
+popd
 pause
 :start
 set slot=%1

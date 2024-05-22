@@ -7,8 +7,8 @@ call :start legs
 call :start feet
 del modern\data\las\item_modifier\*.json 2>nul
 move jsons modern\data\las\item_modifier
-pause
 popd
+pause
 :start
 set slot=%1
 if %slot% == head set maxnum=3.06
