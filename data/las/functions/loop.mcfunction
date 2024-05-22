@@ -12,6 +12,20 @@ scoreboard players set @a helmetBaseDurability 0
 scoreboard players set @a chestplateBaseDurability 0
 scoreboard players set @a leggingsBaseDurability 0
 scoreboard players set @a bootsBaseDurability 0
+# from currentdurability
+scoreboard players set @a currentHelmetDurability 0
+scoreboard players set @a currentChestplateDurability 0
+scoreboard players set @a currentLeggingsDurability 0
+scoreboard players set @a currentBootsDurability 0
+# from basearmorpoints
+scoreboard players set @a hasHelmet 0
+scoreboard players set @a hasChestplate 0
+scoreboard players set @a hasLeggings 0
+scoreboard players set @a hasBoots 0
+scoreboard players set @a armorPieces 0
+scoreboard players set @a baseArmorPoints 0
+
+# these NBT calls are very slow. Maybe figure out a way to optimize?
 
 # Leather
 scoreboard players set @a[nbt={Inventory:[{id:"minecraft:leather_helmet",Slot:103b}]}] helmetBaseDurability 55
@@ -64,4 +78,4 @@ execute as @a run scoreboard players operation @s totalBaseDurability += @s legg
 execute as @a run scoreboard players operation @s totalBaseDurability += @s bootsBaseDurability
 
 # We're done here, move on to fetch current durability
-function las:currentdurability
+execute as @a run function las:currentdurability
